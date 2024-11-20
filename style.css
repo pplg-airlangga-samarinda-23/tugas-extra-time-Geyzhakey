@@ -1,0 +1,30 @@
+.container {
+    border-style: solid;
+    width: 400px;
+    height: 400px;
+    background-color: cyan;
+    display: flex;
+}
+
+.border {
+    border-style: solid;
+    margin-left: 410px;
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+}
+
+.asfes {
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    background-color: wheat;
+    text-align: center;
+    margin-left: 450px;
+    display: flex;
+}
+
+.container .border{
+    display: flex;
+    border-collapse: separate;
+}
